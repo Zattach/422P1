@@ -13,9 +13,10 @@ April 1, 2019
 MacOS 10.13 and above
 
 ## Usage: 
-- First try whether the built app in dist/ works, if not then
-- from the root directory of the project, run:
-	```python3 main.py```
+- Try the existing .app in the dist/ folder
+- If the .app does not work then run the install.sh shell script. This will:
+	- install py2app
+	- use py2app to create a cold-call application in the dist/ folder
 
 ## Dependencies: 
 To run this program, you will need Python 3.6 or higher.
